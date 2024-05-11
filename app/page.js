@@ -51,29 +51,12 @@ function Page() {
                 </h1>
             </marquee>
         </div>
-     <div style={{ width: '560px', height: '315px', float: 'none', clear: 'both', margin: '2px auto' }}>
-        <embed
-          src="https://www.youtube.com/embed/J---aiyznGQ?autohide=1&autoplay=1"
-          wmode="transparent"
-          type="video/mp4"
-          width="100%" height="100%"
-          allow="autoplay; encrypted-media; picture-in-picture"
-          allowFullScreen
-          title="Keyboard Cat"
-        />
-      </div>
+     
       <div
         id="youtube-player"
         style={{ width: "560px", height: "315px", margin: "2px auto" }}
       ></div>
-      <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/J---aiyznGQ?autoplay=1"
-        frameborder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-      ></iframe>
+      
     </div>
   );
 }
